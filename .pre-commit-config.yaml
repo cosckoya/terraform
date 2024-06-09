@@ -13,3 +13,6 @@ repos:
         - --hook-config=--add-to-existing-file=true     # Boolean. true or false
         - --hook-config=--create-file-if-not-exist=true # Boolean. true or false
         - --hook-config=--use-standard-markers=true     # Boolean. Defaults in v1.x to false. Set to true for compatibility with terraform-docs
+    - id: terraform_trivy
+        #- --args=--format=json
+        #- --args=--skip-dirs="**/.terraform"
